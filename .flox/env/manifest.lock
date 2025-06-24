@@ -1,0 +1,911 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "cmake": {
+        "pkg-path": "cmake"
+      },
+      "expect": {
+        "pkg-path": "expect"
+      },
+      "gcc": {
+        "pkg-path": "gcc"
+      },
+      "gdb": {
+        "pkg-path": "gdb"
+      },
+      "gnumake": {
+        "pkg-path": "gnumake"
+      },
+      "libxml2": {
+        "pkg-path": "libxml2"
+      },
+      "pkg-config": {
+        "pkg-path": "pkg-config"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ]
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "cmake",
+      "broken": false,
+      "derivation": "/nix/store/rd49f5h7ghjrkmydvlsin9vpyz3434hd-cmake-3.31.6.drv",
+      "description": "Cross-platform, open-source build system generator",
+      "install_id": "cmake",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "cmake-3.31.6",
+      "pname": "cmake",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:36:15.759449Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.31.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/446sv4sjjz03j7zw44icjbd81mfl8inx-cmake-3.31.6"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cmake",
+      "broken": false,
+      "derivation": "/nix/store/yhxzwpcd4sdxs402a1jv45hlziimwil8-cmake-3.31.6.drv",
+      "description": "Cross-platform, open-source build system generator",
+      "install_id": "cmake",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "cmake-3.31.6",
+      "pname": "cmake",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:54:48.273150Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.31.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/vkkhdc8qyimrpz4zrhwc0bjrmabknwd8-cmake-3.31.6-debug",
+        "out": "/nix/store/9cbpyw2256lkll43i97438fhb26h0xvc-cmake-3.31.6"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cmake",
+      "broken": false,
+      "derivation": "/nix/store/6bh8x8dl9ga5pbiwk8f6yb537c1qmgvs-cmake-3.31.6.drv",
+      "description": "Cross-platform, open-source build system generator",
+      "install_id": "cmake",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "cmake-3.31.6",
+      "pname": "cmake",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:12:23.007373Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.31.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/rlp1sdsib58dq9bxn0x9cvq54bgfp2j7-cmake-3.31.6"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cmake",
+      "broken": false,
+      "derivation": "/nix/store/b6a0f1gdzk90hvyfk8bmc3xgarn19k0w-cmake-3.31.6.drv",
+      "description": "Cross-platform, open-source build system generator",
+      "install_id": "cmake",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "cmake-3.31.6",
+      "pname": "cmake",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:32:27.698783Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.31.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/kdnzgg0361rhg6h8mxhzkw3wvs2c1ffn-cmake-3.31.6-debug",
+        "out": "/nix/store/wphngc22a7aphbp5pi5jqmqlsqmisgn5-cmake-3.31.6"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "expect",
+      "broken": false,
+      "derivation": "/nix/store/mv3qnvxbwyx9mrbxv8pkbp26dyimzpr5-expect-5.45.4.drv",
+      "description": "Tool for automating interactive applications",
+      "install_id": "expect",
+      "license": "Public Domain",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "expect-5.45.4",
+      "pname": "expect",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:36:16.084714Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.45.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/w7d1nv65h14ldb6yznqwizwgmp1d7z15-expect-5.45.4-dev",
+        "out": "/nix/store/m4zpi7vxg788vqjrmkynivnacf73wy01-expect-5.45.4"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "expect",
+      "broken": false,
+      "derivation": "/nix/store/mxxnjpqjjbjiv8g6fq7j4nkd4dkd9f96-expect-5.45.4.drv",
+      "description": "Tool for automating interactive applications",
+      "install_id": "expect",
+      "license": "Public Domain",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "expect-5.45.4",
+      "pname": "expect",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:54:48.833275Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.45.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/09qywcjy2h94vq6zq50v8q2grqd8lnjd-expect-5.45.4-dev",
+        "out": "/nix/store/6k6mxi4ngj5mbpazbmyzp3h90k34p0v2-expect-5.45.4"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "expect",
+      "broken": false,
+      "derivation": "/nix/store/325mdrx0ybqf3ripbhkkjh3myybspsfz-expect-5.45.4.drv",
+      "description": "Tool for automating interactive applications",
+      "install_id": "expect",
+      "license": "Public Domain",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "expect-5.45.4",
+      "pname": "expect",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:12:23.325052Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.45.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/a2gkydg3wkwb7y5w7rj850w13dn51v84-expect-5.45.4-dev",
+        "out": "/nix/store/m67yvcr3zn5pyn1a34ix4i3lg4hgi7n1-expect-5.45.4"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "expect",
+      "broken": false,
+      "derivation": "/nix/store/hs52inhw5sqgsg24n01rml5wzfs3hq5q-expect-5.45.4.drv",
+      "description": "Tool for automating interactive applications",
+      "install_id": "expect",
+      "license": "Public Domain",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "expect-5.45.4",
+      "pname": "expect",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:32:28.316754Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.45.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/pa5aj2i114j0jn53sb4cn4xqa4cvbsbv-expect-5.45.4-dev",
+        "out": "/nix/store/5s1jxww69als08sj7r4xr56wldp3vd4l-expect-5.45.4"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gcc",
+      "broken": false,
+      "derivation": "/nix/store/ngwnxc9m4aaz95bnmsmdb3680p5dsk0s-gcc-wrapper-14.2.1.20250322.drv",
+      "description": "GNU Compiler Collection, version 14.2.1.20250322 (wrapper script)",
+      "install_id": "gcc",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "gcc-wrapper-14.2.1.20250322",
+      "pname": "gcc",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:36:16.259679Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "14.2.1.20250322",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/fl8gp0pvp2lz34va2pp2rg4krk2z35ar-gcc-wrapper-14.2.1.20250322-info",
+        "man": "/nix/store/ndnl5s0a8671f19jwhyms5wb0d0jq7ix-gcc-wrapper-14.2.1.20250322-man",
+        "out": "/nix/store/pnppg88x29b2rmmz54zj9rvm6rgbwml5-gcc-wrapper-14.2.1.20250322"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gcc",
+      "broken": false,
+      "derivation": "/nix/store/bn7yhf3ngv7r5lcsi8psy5bgpc2751km-gcc-wrapper-14.2.1.20250322.drv",
+      "description": "GNU Compiler Collection, version 14.2.1.20250322 (wrapper script)",
+      "install_id": "gcc",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "gcc-wrapper-14.2.1.20250322",
+      "pname": "gcc",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:54:49.115926Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "14.2.1.20250322",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/02wyr4amxzw5wdwsr1w8iviwz21dpzzq-gcc-wrapper-14.2.1.20250322-info",
+        "man": "/nix/store/v2vgm7qpc7nck1p39cnq29ld1jb4i02z-gcc-wrapper-14.2.1.20250322-man",
+        "out": "/nix/store/m5lx55lwrvcax2lwfv83793i2b8x6r2w-gcc-wrapper-14.2.1.20250322"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gcc",
+      "broken": false,
+      "derivation": "/nix/store/nb6z68cyxxa8dv7q05nf0sc0y0j60k45-gcc-wrapper-14.2.1.20250322.drv",
+      "description": "GNU Compiler Collection, version 14.2.1.20250322 (wrapper script)",
+      "install_id": "gcc",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "gcc-wrapper-14.2.1.20250322",
+      "pname": "gcc",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:12:23.481062Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "14.2.1.20250322",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/n0qd4ys4ss1pxqcwf8fpf4p8gqfqp8xc-gcc-wrapper-14.2.1.20250322-info",
+        "man": "/nix/store/wdrsjsi6020c883n5bd4j0ih3wqf65da-gcc-wrapper-14.2.1.20250322-man",
+        "out": "/nix/store/kpk57xjwgb2kkbidrvhj4mk0zifj7jkp-gcc-wrapper-14.2.1.20250322"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gcc",
+      "broken": false,
+      "derivation": "/nix/store/f0d6rgrfnslm73sw2w1bwlym3f1cp670-gcc-wrapper-14.2.1.20250322.drv",
+      "description": "GNU Compiler Collection, version 14.2.1.20250322 (wrapper script)",
+      "install_id": "gcc",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "gcc-wrapper-14.2.1.20250322",
+      "pname": "gcc",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:32:28.639894Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "14.2.1.20250322",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/7bzcswp68xfk2x17fmqbdrybbwcjy0kq-gcc-wrapper-14.2.1.20250322-info",
+        "man": "/nix/store/kbykzp8wk3anb8ym760yf5m28nqz2k9n-gcc-wrapper-14.2.1.20250322-man",
+        "out": "/nix/store/0fsnicvfpf55nkza12cjnad0w84d6ba7-gcc-wrapper-14.2.1.20250322"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gdb",
+      "broken": false,
+      "derivation": "/nix/store/80sr4b43bbzcrsxmhm45x4m0k38z2lm3-gdb-16.2.drv",
+      "description": "GNU Project debugger",
+      "install_id": "gdb",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "gdb-16.2",
+      "pname": "gdb",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:36:16.269804Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "16.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/b2340w1qnffqkc9ks110hcinjpmxqdf6-gdb-16.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gdb",
+      "broken": false,
+      "derivation": "/nix/store/19524c99mlh597dpsfbbf1jyqai6v50i-gdb-16.2.drv",
+      "description": "GNU Project debugger",
+      "install_id": "gdb",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "gdb-16.2",
+      "pname": "gdb",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:54:49.130314Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "16.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/2shkz3ch6qbxhdp78l5cyw7mx9ydgf0d-gdb-16.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gdb",
+      "broken": false,
+      "derivation": "/nix/store/czrrzcrp8xig4zk6rx65xbmgp26qgryb-gdb-16.2.drv",
+      "description": "GNU Project debugger",
+      "install_id": "gdb",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "gdb-16.2",
+      "pname": "gdb",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:12:23.491837Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "16.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/7zv8dvc8mv2v78izcml8girkyr9lqkpq-gdb-16.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gdb",
+      "broken": false,
+      "derivation": "/nix/store/063xs51gx4cq5l8ag9hxgzvf5qa2bd6x-gdb-16.2.drv",
+      "description": "GNU Project debugger",
+      "install_id": "gdb",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "gdb-16.2",
+      "pname": "gdb",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:32:28.655767Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "16.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/j87n5xqfj6c03633g7l95lfjq5ynml13-gdb-16.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gnumake",
+      "broken": false,
+      "derivation": "/nix/store/0z9w4hr3wkrs4fdrk0h42isxzhxxlbi5-gnumake-4.4.1.drv",
+      "description": "Tool to control the generation of non-source files from sources",
+      "install_id": "gnumake",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "gnumake-4.4.1",
+      "pname": "gnumake",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:36:16.399869Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.4.1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/4ykdx0lpl2dn8knnab0bap11prr7zzky-gnumake-4.4.1-info",
+        "man": "/nix/store/x59n9rzr26vf9cr0aapfakhrqhg7vy18-gnumake-4.4.1-man",
+        "out": "/nix/store/wkq7f52a2xq4n24f545wy2fidm4z14f2-gnumake-4.4.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gnumake",
+      "broken": false,
+      "derivation": "/nix/store/pya8baigzsh8ddrq9zhwn3ppk07qihmh-gnumake-4.4.1.drv",
+      "description": "Tool to control the generation of non-source files from sources",
+      "install_id": "gnumake",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "gnumake-4.4.1",
+      "pname": "gnumake",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:54:49.614922Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.4.1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/wwhf09gg8ddpl4c6mx70pk3r3a6qx95r-gnumake-4.4.1-debug",
+        "info": "/nix/store/8wcb953rsjvp2ybi7iig6hjls48w87dj-gnumake-4.4.1-info",
+        "man": "/nix/store/f6b4ph7wflz6ylw3lylbiqrr72xs9jw5-gnumake-4.4.1-man",
+        "out": "/nix/store/946sh8bs8hrlrb4jhwxqzllr37zb2q0y-gnumake-4.4.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gnumake",
+      "broken": false,
+      "derivation": "/nix/store/dla3vbdflxl9qwj4hvq2mn4xbsfic3gm-gnumake-4.4.1.drv",
+      "description": "Tool to control the generation of non-source files from sources",
+      "install_id": "gnumake",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "gnumake-4.4.1",
+      "pname": "gnumake",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:12:23.660495Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.4.1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/14vf2zb0z70c67k2nzyqaz8b9rfjy73r-gnumake-4.4.1-info",
+        "man": "/nix/store/22x6iviphcn6zlbvhihbvws00iavf9aj-gnumake-4.4.1-man",
+        "out": "/nix/store/1fd85ai3984ah9cy31c7m1fn6i2mm66s-gnumake-4.4.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gnumake",
+      "broken": false,
+      "derivation": "/nix/store/yhc71a2s1xkzgv9x20nyyrc5c9z9nc14-gnumake-4.4.1.drv",
+      "description": "Tool to control the generation of non-source files from sources",
+      "install_id": "gnumake",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "gnumake-4.4.1",
+      "pname": "gnumake",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:32:29.208241Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.4.1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/c59bxh8h9rnpp3l7y8i8zirpvp703z8w-gnumake-4.4.1-debug",
+        "info": "/nix/store/xqygkvkp7cghyk66aivysnr88q24dsms-gnumake-4.4.1-info",
+        "man": "/nix/store/5g01b5r1dbk91kwy4jld5vc1asy0mir4-gnumake-4.4.1-man",
+        "out": "/nix/store/p7z72c2s722pbw31jmm3y0nwypksb5fj-gnumake-4.4.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libxml2",
+      "broken": false,
+      "derivation": "/nix/store/3g9hycmldyx7s2y5q9b7pfdgx1wjpaii-libxml2-2.13.8.drv",
+      "description": "XML parsing library for C",
+      "install_id": "libxml2",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "libxml2-2.13.8",
+      "pname": "libxml2",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:36:17.476944Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.13.8",
+      "outputs_to_install": [
+        "bin"
+      ],
+      "outputs": {
+        "bin": "/nix/store/y9mb0jpx5gqndk3f94pi98y5is3sm8ra-libxml2-2.13.8-bin",
+        "dev": "/nix/store/xclr8fil4qjwicnb5cx3byzaaz1jmq7v-libxml2-2.13.8-dev",
+        "devdoc": "/nix/store/dl7115i6yladcqhn3mnwndcq9k84ashn-libxml2-2.13.8-devdoc",
+        "out": "/nix/store/fy1l8akbxlmi6z7k92aiyqnxf81xwf9h-libxml2-2.13.8"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libxml2",
+      "broken": false,
+      "derivation": "/nix/store/akbdifym4hdizz30wxpqrsiiar7qmymm-libxml2-2.13.8.drv",
+      "description": "XML parsing library for C",
+      "install_id": "libxml2",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "libxml2-2.13.8",
+      "pname": "libxml2",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:54:52.541045Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.13.8",
+      "outputs_to_install": [
+        "bin"
+      ],
+      "outputs": {
+        "bin": "/nix/store/2r937z8d8b7hdij3rnkjfg34s36j8nqv-libxml2-2.13.8-bin",
+        "dev": "/nix/store/xygznpa635x9lcfl7maiqcnhxymp2bzf-libxml2-2.13.8-dev",
+        "devdoc": "/nix/store/0j5c23nr10wxa62ign3pswpck6s6vv0q-libxml2-2.13.8-devdoc",
+        "out": "/nix/store/lhwx7vs049wfpx8fr9xka4yjz3fpvyqx-libxml2-2.13.8",
+        "py": "/nix/store/ycs33rm2dpns5p44cs4207mjkcfg5cih-libxml2-2.13.8-py"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libxml2",
+      "broken": false,
+      "derivation": "/nix/store/8404k9iy82rnldsrgl1z235gsgahmxhq-libxml2-2.13.8.drv",
+      "description": "XML parsing library for C",
+      "install_id": "libxml2",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "libxml2-2.13.8",
+      "pname": "libxml2",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:12:24.765749Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.13.8",
+      "outputs_to_install": [
+        "bin"
+      ],
+      "outputs": {
+        "bin": "/nix/store/y3cqr8jsqgnf916hpb2drn3c2bva877z-libxml2-2.13.8-bin",
+        "dev": "/nix/store/38kag1n8z5ls74w066a6nxqa6bhz0hh2-libxml2-2.13.8-dev",
+        "devdoc": "/nix/store/3wyjf8hgq4a4mq0xafv77gsv35p7z1nc-libxml2-2.13.8-devdoc",
+        "out": "/nix/store/b7xkqcgfnciqcbxshw8dfpbwhdxbhkf4-libxml2-2.13.8"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libxml2",
+      "broken": false,
+      "derivation": "/nix/store/wj8pzzcjs2hnlh68x04qrp8viklz7x6f-libxml2-2.13.8.drv",
+      "description": "XML parsing library for C",
+      "install_id": "libxml2",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "libxml2-2.13.8",
+      "pname": "libxml2",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:32:32.384610Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.13.8",
+      "outputs_to_install": [
+        "bin"
+      ],
+      "outputs": {
+        "bin": "/nix/store/pdnqlnvxiq1926kqjzxjln4d3147z54w-libxml2-2.13.8-bin",
+        "dev": "/nix/store/cisb0723v3pgp74f2lj07z5d6w3j77sl-libxml2-2.13.8-dev",
+        "devdoc": "/nix/store/f557rgly3q4dfbdi0sahxr0wzndn1ril-libxml2-2.13.8-devdoc",
+        "out": "/nix/store/xv0pc5nc41v5vi0lac1i2d353s3rqlkm-libxml2-2.13.8",
+        "py": "/nix/store/0kac7gpsh7fcj7q7nkwqk4p77ml5vaay-libxml2-2.13.8-py"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pkg-config",
+      "broken": false,
+      "derivation": "/nix/store/0abxnz07gbqqd5fdz6j907ji30j34d5d-pkg-config-wrapper-0.29.2.drv",
+      "description": "Tool that allows packages to find out information about other packages (wrapper script)",
+      "install_id": "pkg-config",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "pkg-config-wrapper-0.29.2",
+      "pname": "pkg-config",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:36:24.061570Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.29.2",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/3ynyhaw76lpyrq90izswniwi30w44ijs-pkg-config-wrapper-0.29.2-doc",
+        "man": "/nix/store/wnc0cjzgh9njz9gzmr1xpri7g8azbmll-pkg-config-wrapper-0.29.2-man",
+        "out": "/nix/store/svafyjg9cly5zrq6hvbd34d14szvx2l7-pkg-config-wrapper-0.29.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pkg-config",
+      "broken": false,
+      "derivation": "/nix/store/xqxnjsbc129cpgpf7gpzaw1skm2byp3h-pkg-config-wrapper-0.29.2.drv",
+      "description": "Tool that allows packages to find out information about other packages (wrapper script)",
+      "install_id": "pkg-config",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "pkg-config-wrapper-0.29.2",
+      "pname": "pkg-config",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:55:08.687507Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.29.2",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/axcsk9bmq0q4dg3asfnfifwk6s3ci1qd-pkg-config-wrapper-0.29.2-doc",
+        "man": "/nix/store/gw2zj9jkdf8369zmmxyc6g1siclmshdd-pkg-config-wrapper-0.29.2-man",
+        "out": "/nix/store/gzm371m389j42zak90jpg2bnx4cdkyh2-pkg-config-wrapper-0.29.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pkg-config",
+      "broken": false,
+      "derivation": "/nix/store/8nii8knb8x3jz5c772qf9z5m9v626qi4-pkg-config-wrapper-0.29.2.drv",
+      "description": "Tool that allows packages to find out information about other packages (wrapper script)",
+      "install_id": "pkg-config",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "pkg-config-wrapper-0.29.2",
+      "pname": "pkg-config",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:12:31.550860Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.29.2",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/r03rfhl9fp32v02f30lp5ixx6j8bz6ii-pkg-config-wrapper-0.29.2-doc",
+        "man": "/nix/store/98m5gy9w2q1m4rw8hlsfglbhzkk8q26y-pkg-config-wrapper-0.29.2-man",
+        "out": "/nix/store/6a30pxqzr3hxspghxkx76r5i35dn8vw4-pkg-config-wrapper-0.29.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pkg-config",
+      "broken": false,
+      "derivation": "/nix/store/pfdcqzk36ymraiylb23hik50j93jxzxm-pkg-config-wrapper-0.29.2.drv",
+      "description": "Tool that allows packages to find out information about other packages (wrapper script)",
+      "install_id": "pkg-config",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "pkg-config-wrapper-0.29.2",
+      "pname": "pkg-config",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:32:51.323508Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.29.2",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/8h5h1jw0pw5f7gj68day67wjfsdjmp02-pkg-config-wrapper-0.29.2-doc",
+        "man": "/nix/store/fsrf6bncxkzcd70xr4191vrnfr910fgx-pkg-config-wrapper-0.29.2-man",
+        "out": "/nix/store/2crk9xnq5x9v7yf0r2nwkgj8qsmxr4ly-pkg-config-wrapper-0.29.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}

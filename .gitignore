@@ -1,0 +1,57 @@
+# Build artifacts
+*.o
+*.a
+sacd-lab-tui
+test_libsacd
+test_*
+debug_*
+simple_test/
+
+# Generated executables
+test_area_detection
+test_all_isos
+test_debug
+test_debug2
+test_dir_read
+test_quick_extract
+test_real_extract
+test_root_unit
+test_sacd
+test_simple_extract
+test_track_titles
+test_tui_direct
+
+# Test output
+test_extraction/
+extracted/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+compile_commands.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+*.env
+!.flox/
+
+# Core dumps
+core
+vgcore.*
+
+# Debugging files
+*.gdb
+*.valgrind
+
+# Personal notes and temporary files
+CURRENT_STATUS.md
+*_backup.*
